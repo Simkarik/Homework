@@ -4,7 +4,7 @@ void FillMass(int[] mas)
     int i = 0;
     while (i < mas.Length)
     {
-        mas[i] = new Random().Next(1, 100);
+        mas[i] = new Random().Next(1, 100); 
         i++;
     }
 }
@@ -20,7 +20,7 @@ void PrintMass(int[] mass)
     Console.Write(mass[pos]);
 }
 
-int[] array = new int[8];
+int[] array = new int[8]; //вместо метода для точного соблюдения условий задачи можно было использовать int[] array = {3, 12, 53, 66, 23, 16, 98, 76};
 
 FillMass(array);
 PrintMass(array);
