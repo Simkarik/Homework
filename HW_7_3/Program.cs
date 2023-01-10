@@ -42,7 +42,7 @@ void Avg (int[,] tab, int m, int n)
     {
         avg = avg + tab[t,i];
     }
-    Console.Write($"{avg/n}  ");
+    Console.Write($"{avg/m}  ");
 }
     Console.WriteLine();
 }
